@@ -8,8 +8,12 @@ Code files:
 'RN' is a helper file invoked when we call the 'move_resources_on_the_road_network' file. This file sets the road shapefiles first and then moves the contents of other files (in this case, households) on the road network and generates a corresponding new file. For example, if we want to move households on the road network, we need both roads and household shapefiles. This code will move each household to the appropriate position on the road network and save that as a new file. The same code can be repurposed to move anything on the road network with valid latitude and longitude. It will append '_moved' at the end of the initial file name while saving the newly generated one.
 
 Path of the Input files:
+
 ../../source_file/gdansk/roads.shp
+
 ../../source_file/gdansk/households.shp
 
+
 Path of the Generated file(s):
+
 ../../output_file/gdansk/households_moved.shp
