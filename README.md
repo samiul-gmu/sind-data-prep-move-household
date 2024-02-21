@@ -5,6 +5,7 @@ This repo has three folders: code, source_file, and output_file. These folders m
 Code files:
 -----------
 1. move_resources_on_the_road_network.py and RN.py
+
 'RN' is a helper file invoked when we call the 'move_resources_on_the_road_network' file. This file sets the road shapefiles first and then moves the contents of other files (in this case, households) on the road network and generates a corresponding new file. For example, if we want to move households on the road network, we need both roads and household shapefiles. This code will move each household to the appropriate position on the road network and save that as a new file. The same code can be repurposed to move anything on the road network with valid latitude and longitude. It will append '_moved' at the end of the initial file name while saving the newly generated one.
 
 Path of the Input files:
